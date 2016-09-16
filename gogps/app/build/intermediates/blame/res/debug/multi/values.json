@@ -1,5 +1,303 @@
 [
     {
+        "outputFile": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 34,
+                    "endColumn": 16,
+                    "endOffset": 944
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\src\\main\\res\\values\\buildings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endLine": 34,
+                        "endColumn": 16,
+                        "endOffset": 978
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 949,
+                    "endLine": 67,
+                    "endColumn": 16,
+                    "endOffset": 2372
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\src\\main\\res\\values\\buildings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 984,
+                        "endLine": 67,
+                        "endColumn": 16,
+                        "endOffset": 2439
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 2377,
+                    "endLine": 100,
+                    "endColumn": 16,
+                    "endOffset": 4075
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\src\\main\\res\\values\\buildings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 2445,
+                        "endLine": 100,
+                        "endColumn": 16,
+                        "endOffset": 4176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 4080,
+                    "endLine": 104,
+                    "endColumn": 9,
+                    "endOffset": 4171
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\src\\main\\res\\values\\yourmenuitems.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endLine": 5,
+                        "endColumn": 9,
+                        "endOffset": 151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 4176,
+                    "endColumn": 54,
+                    "endOffset": 4226
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 232,
+                        "endColumn": 54,
+                        "endOffset": 282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 4231,
+                    "endColumn": 52,
+                    "endOffset": 4279
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 380,
+                        "endColumn": 52,
+                        "endOffset": 428
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 4284,
+                    "endColumn": 52,
+                    "endOffset": 4332
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 434,
+                        "endColumn": 52,
+                        "endOffset": 482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 4337,
+                    "endColumn": 38,
+                    "endOffset": 4371
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 38,
+                        "endOffset": 93
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 4376,
+                    "endColumn": 34,
+                    "endOffset": 4406
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 288,
+                        "endColumn": 34,
+                        "endOffset": 318
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 4411,
+                    "endColumn": 49,
+                    "endOffset": 4456
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 540,
+                        "endColumn": 46,
+                        "endOffset": 585
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 4461,
+                    "endColumn": 56,
+                    "endOffset": 4513
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 485,
+                        "endColumn": 53,
+                        "endOffset": 537
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 4518,
+                    "endColumn": 54,
+                    "endOffset": 4568
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 324,
+                        "endColumn": 54,
+                        "endOffset": 374
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 4573,
+                    "endColumn": 36,
+                    "endOffset": 4605
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 194,
+                        "endColumn": 36,
+                        "endOffset": 226
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 4610,
+                    "endColumn": 44,
+                    "endOffset": 4650
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 148,
+                        "endColumn": 41,
+                        "endOffset": 188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 4655,
+                    "endColumn": 50,
+                    "endOffset": 4701
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\Desktop\\school\\2016 Fall\\cs435\\lab2\\gogps\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 99,
+                        "endColumn": 50,
+                        "endOffset": 145
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\Users\\Administrator\\StudioProjects\\gogps1\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
         "map": [
             {

@@ -46,6 +46,7 @@ public class ListYourPlacesActivity extends ListActivity {
     private static CompassActivity ca;
 	public static double glat=0.0, glon=0.0, galtitude=0.0;
 	public static int locationReady=0;
+	public static Location my_loc = new Location("dummyprovider");
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -165,24 +166,29 @@ public class ListYourPlacesActivity extends ListActivity {
 		for (int i=0;i<Csub1Activity.nMyList;i++){
 			list_places.add(Csub1Activity.my_places.get(i).place);
 			System.out.println(Csub1Activity.my_places.get(i).place);
+			Toast.makeText(this,Csub1Activity.my_places.get(i).place,Toast.LENGTH_LONG).show();
 		}
+		mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list_places);
+		setListAdapter(mAdapter);
         rewriteFile(-1);
+
 
     }
     //SORT BY DISTANCE:
     public void function5(int id) {
-        Collections.sort(Csub1Activity.places,new DistanceComparator());
-		Toast.makeText(this, "Sorting by distance", Toast.LENGTH_SHORT).show();
+        Collections.sort(Csub1Activity.my_places,new DistanceComparator());
 		Float distance = 0.0f;
-		Location my_loc = new Location("dummyprovider");
+
 		if (locationReady == 1){
 			my_loc.setLatitude(glat);
 			my_loc.setLongitude(glon);
+			Toast.makeText(this, "Sorting by distance FROM YOUR LOCATION", Toast.LENGTH_SHORT).show();
 		}
 		else{
 			//CSUB LOCATION: 9001 STOCKDALE HWY, BAKERSFIELD, CA:
 			my_loc.setLatitude(35.3514);
 			my_loc.setLongitude(-119.1031);
+			Toast.makeText(this, "Sorting by distance FROM YOUR CSUB", Toast.LENGTH_SHORT).show();
 		}
 		Location loc = new Location("dummyprovider");
 		list_places.clear();
@@ -193,8 +199,11 @@ public class ListYourPlacesActivity extends ListActivity {
 			loc.setLatitude(Csub1Activity.my_places.get(i).dlat);
 			loc.setLongitude(Csub1Activity.my_places.get(i).dlon);
 			distance = my_loc.distanceTo(loc);
-			Toast.makeText(this,Csub1Activity.my_places.get(i).place + " distance="+distance,Toast.LENGTH_LONG).show();
+			//Toast.makeText(this,Csub1Activity.my_places.get(i).place + " distance="+distance,Toast.LENGTH_LONG).show();
 		}
+		mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list_places);
+		setListAdapter(mAdapter);
+		rewriteFile(-1);
     }
 
 	@Override
@@ -312,16 +321,16 @@ public class ListYourPlacesActivity extends ListActivity {
             Double lat2 = ((Csub1Activity.myPlace) obj2).dlat;
             Double lon2 = ((Csub1Activity.myPlace) obj2).dlon;
 
-    		Location my_loc = new Location("dummyprovider");
-			if (locationReady == 1){
-				my_loc.setLatitude(glat);
-				my_loc.setLongitude(glon);
-			}
-			else{
-				//CSUB LOCATION: 9001 STOCKDALE HWY, BAKERSFIELD, CA:
-				my_loc.setLatitude(35.3514);
-				my_loc.setLongitude(-119.1031);
-			}
+    		//Location my_loc = new Location("dummyprovider");
+//			if (locationReady == 1){
+//				my_loc.setLatitude(glat);
+//				my_loc.setLongitude(glon);
+//			}
+//			else{
+//				//CSUB LOCATION: 9001 STOCKDALE HWY, BAKERSFIELD, CA:
+//				my_loc.setLatitude(35.3514);
+//				my_loc.setLongitude(-119.1031);
+//			}
 
 
 

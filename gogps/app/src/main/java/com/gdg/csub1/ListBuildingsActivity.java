@@ -41,6 +41,7 @@ public class ListBuildingsActivity extends ListActivity {
     int locationReady=0;
     private LocationManager mlocManager;
     private LocationListener mlocListener;
+    public static Location my_loc = new Location("dummyprovider");
     @Override
     public void onCreate(Bundle savedInstanceState) {
     	// Called when the activity is first created.
@@ -121,25 +122,23 @@ public class ListBuildingsActivity extends ListActivity {
         for (int i=0;i<Csub1Activity.nList;i++){
             list_places.add(Csub1Activity.places.get(i).place);
         }
-
-
+        setListAdapter(new ArrayAdapter<String>(this, R.layout.main2, list_places));
     }
     //SORT BY DISTANCE:
     public void function5(int id) {
         Collections.sort(Csub1Activity.places,new ListYourPlacesActivity.DistanceComparator());
         Float distance = 0.0f;
-        Location my_loc = new Location("dummyprovider");
         if (locationReady == 1){
             my_loc.setLatitude(glat);
             my_loc.setLongitude(glon);
-            Toast.makeText(this, "Sorted by distance FROM CSUB", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Sorted by distance FROM YOUR LOCATION", Toast.LENGTH_SHORT).show();
         }
         else{
             //CSUB LOCATION: 9001 STOCKDALE HWY, BAKERSFIELD, CA:
             //EG W.S. Library = 35.351405 lat & -119.103109 lon
             my_loc.setLatitude(35.351400);
             my_loc.setLongitude(-119.103100);
-            Toast.makeText(this, "Sorted by distance FROM YOUR LOCATION", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Sorted by distance FROM YOUR CSUB", Toast.LENGTH_SHORT).show();
         }
         Location loc = new Location("dummyprovider");
         list_places.clear();
@@ -152,6 +151,7 @@ public class ListBuildingsActivity extends ListActivity {
             distance = my_loc.distanceTo(loc);
            Toast.makeText(this,Csub1Activity.places.get(i).place + " distance="+distance,Toast.LENGTH_LONG).show();
         }
+        setListAdapter(new ArrayAdapter<String>(this, R.layout.main2, list_places));
     }
 
 	@Override
